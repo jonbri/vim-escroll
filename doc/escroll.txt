@@ -1,0 +1,22 @@
+*escroll.txt* Fix <C-e> in VSCode + Neovim
+
+Author:  Jonathan Brink
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *escroll*
+
+Fix <C-e> in VSCode + Neovim
+
+This plugin should only be loaded while in the Neovim VSCode plugin.
+
+                                                *<C-e>
+<C-e> Emulator for native <C-e>
+
+
+ABOUT                                           *escroll-about*
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/jonbri/vim-escroll
+
+ vim:tw=78:et:ft=help:norl:
