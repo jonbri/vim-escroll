@@ -6,7 +6,7 @@ if exists("g:loaded_escroll") || &cp || v:version < 700
 endif
 let g:loaded_escroll = 1
 
-function! FixedCtrlE()
+function! EScroll()
   call feedkeys("1\<C-d>")
   let l:row = winline()
   if l:row == 2
@@ -15,6 +15,4 @@ function! FixedCtrlE()
     normal k
   endif
 endfunction
-
-nnoremap <C-e> :call FixedCtrlE()<CR>
 
